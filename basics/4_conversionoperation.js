@@ -20,3 +20,23 @@ console.log(booleanIsLoggedIn);
 let someNumber=33
 let stringNumber=String(someNumber)
 console.log(stringNumber);
+
+//-------operations-------
+
+console.log(2+2);
+console.log(2*2);
+console.log(2/2);
+console.log(3%2);
+
+
+let str1="niklesh"
+let str2="kumar"
+
+let str3=str1+str2
+console.log(str3);
+
+
+console.log("1"+2);
+console.log(1+"2")
+console.log(1+2+"2")
+console.log("1"+1+2)
