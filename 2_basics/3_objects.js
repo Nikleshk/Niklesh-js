@@ -1,5 +1,7 @@
 //singleton
+//object laterals
 //object.create
+
 const mySym = Symbol("key1")
 const jsUser = {
     name:"Niklesh",
