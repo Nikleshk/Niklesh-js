@@ -28,4 +28,13 @@ tinderUser.isLoggedIn = "false"
  const id3 = Object.assign({},id1,id2,id4)
  //console.log(id3);
  const id6 = {...id1,...id2,...id4}
- console.log(id6);
+ //console.log(id6);
+
+ const course = {
+    courseName : "eng",
+    courseInstructor:"Niklesh",
+    courseFees:'333'
+
+ }
+ const {courseInstructor:ins} = course
+ console.log(ins);
