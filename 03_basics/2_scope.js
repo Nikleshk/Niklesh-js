@@ -42,9 +42,8 @@ function addOne(num){
     return num + 1
 }
 
-console.log(addTwo(5))
+// console.log(addTwo(5))
 const adding=function addTwo(num){
    //console.log(addTwo(5))
     return num +1
-    
 }
