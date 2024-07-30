@@ -17,3 +17,24 @@ coding.forEach((item,index,Array)=>{
     console.log(item,index,Array);
 }
 )
+
+
+
+const myCoding=[
+    {
+        languagename:"Java",
+        languageFileName:"js"
+    },
+     {
+        languagename:"python",
+        languageFileName:"python"
+    },
+     {
+        languagename:"cpp",
+        languageFileName:"cpp"
+    }
+]
+
+myCoding.forEach((item)=>{
+    console.log(item.languagename);
+})
