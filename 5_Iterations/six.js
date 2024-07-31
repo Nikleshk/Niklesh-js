@@ -24,5 +24,16 @@ const books = [
         title: '364DAYS', genre: 'HORROR', published:1995,
     }
 ]
-const info = books.filter((bk)=>bk.genre==='DRAMA')
+//const info = books.filter((bk)=>bk.genre==='DRAMA')
+//console.log(info);
+
+// const info = books.filter((bk)=>{
+//     return bk.genre==='DRAMA'
+// })
+// const info = books.filter((bk)=>{
+//     return bk.published>=1993
+// })
+const info = books.filter((bk)=>{
+    return bk.published>=1993 && bk.genre==='HORROR'
+})
 console.log(info);
