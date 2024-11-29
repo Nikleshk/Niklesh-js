@@ -12,3 +12,20 @@ console.log(lastName);
 console.log(experiment);
 console.log(exp);
 console.log(exper);
+
+
+
+var unknown = "first line \n\t second line \n third line";
+console.log(unknown);
+
+
+var fullString = "this is the start."+ "this is the end.";
+console.log(fullString)
+
+var aString = "this is a string.";
+aString +="this is another string."
+console.log(aString)
+
+var ourName= "JavaScript";
+var dialog = "we are learning " +ourName+" faster";
+console.log(dialog);
