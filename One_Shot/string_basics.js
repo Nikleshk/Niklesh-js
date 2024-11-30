@@ -29,3 +29,17 @@ console.log(aString)
 var ourName= "JavaScript";
 var dialog = "we are learning " +ourName+" faster";
 console.log(dialog);
+
+
+var adjective = "our course is ";
+var word = "fucked"
+adjective+= word;
+console.log(adjective);
+var strLength = adjective.length
+console.log(strLength);
+
+
+
+var firstName = "NikleshKumar";
+var firstLetterOfFirstName = firstName[0];
+console.log(firstLetterOfFirstName);
