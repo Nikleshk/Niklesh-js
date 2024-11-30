@@ -43,3 +43,13 @@ console.log(strLength);
 var firstName = "NikleshKumar";
 var firstLetterOfFirstName = firstName[0];
 console.log(firstLetterOfFirstName);
+
+var hello = "jello world";
+hello = "hello world";
+console.log(hello);
+
+
+
+var aName = "homelander";
+var lastLetterOfTheGivenName = aName[aName.length-1];
+console.log(lastLetterOfTheGivenName);
