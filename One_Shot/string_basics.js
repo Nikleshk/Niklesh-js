@@ -53,3 +53,6 @@ console.log(hello);
 var aName = "homelander";
 var lastLetterOfTheGivenName = aName[aName.length-1];
 console.log(lastLetterOfTheGivenName);
+
+var lastSecondLetterOfTheGivenName = aName[aName.length-2];
+console.log(lastSecondLetterOfTheGivenName);
