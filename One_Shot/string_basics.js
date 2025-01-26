@@ -56,3 +56,7 @@ console.log(lastLetterOfTheGivenName);
 
 var lastSecondLetterOfTheGivenName = aName[aName.length-2];
 console.log(lastSecondLetterOfTheGivenName);
+
+
+var aStrings = "Niklesh"+"1";
+console.log(aStrings);
