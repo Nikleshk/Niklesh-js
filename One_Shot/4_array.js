@@ -20,7 +20,17 @@ console.log(nestElement);
 var array = [12,23,214];
 array[0] = 1;
 console.log(array);
+ 
 
+// pushing into an array
 
+ var pushing = [12,1222,143]
+ pushing.push(123333);
+ console.log(pushing);
+ 
+// popping'
 
-
+ var popping = [12,2123,324235];
+ popping.pop()
+ console.log(popping);
+ 
