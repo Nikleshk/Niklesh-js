@@ -17,7 +17,6 @@ console.log(nestElement);
 
 
 // updating an array
-
 var array = [12,23,214];
 array[0] = 1;
 console.log(array);
