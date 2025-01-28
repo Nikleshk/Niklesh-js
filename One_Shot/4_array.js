@@ -8,8 +8,12 @@ console.log(nestedArray[2]);
 console.log(nestedexample);
 
 
-var nest = [[12,122,111],[121,11,67],[[34],[23]]]
-console.log(nest[2][1]);
+var nest = [[12,122,111],[121,11,67],[[34],[23]],[[89],[99],[999]]]
+console.log(nest[3][1]);
+var nests = [[12,122,111],[121,11,67],[[34],[23]],[[89],[99],[999]]]
+var nestElement = nests[3][0];
+console.log(nestElement);
+
 
 
 // updating an array
