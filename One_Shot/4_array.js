@@ -30,7 +30,21 @@ console.log(array);
  
 // popping'
 
- var popping = [12,2123,324235];
+ var popping = [12,2123,32];
  popping.pop()
  console.log(popping);
+  
+
+//shift function
+
+ var shifting = [ "arr",9,"sniper"]
+ shifting.shift();
+ console.log(shifting);
+ 
+
+//unshifting
+ var unshifting = ["superman", "batman","spiderman"]
+ unshifting.shift();
+ unshifting.unshift("spiderman");
+ console.log(unshifting);
  
