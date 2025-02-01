@@ -81,3 +81,36 @@ function greaterOrEqual(value){
     return "Less than 10"
 }
 console.log(greaterOrEqual(1111));
+
+
+//Example using less than operator
+function lessOrEqual(value){
+    if(value<=10){
+        return "value is less than or equal to 10";
+    }
+    if(value<=100){
+        return "value is less than or equal to 100";
+    }
+    return "value is greater than 100";
+}
+console.log(lessOrEqual(-1));
+
+//AND operator
+
+function lessOrGreater(value){
+    if(value<=50 && value>=25){
+        return "Value is in 25 to 50";
+    }
+    return "xplicit value";
+}
+console.log(lessOrGreater(500));
+
+//OR operator
+
+function usingOrOperator(value){
+    if(value<10 || value>20){
+        return "value is from outside";
+    }
+    return "value is from inside";
+}
+console.log(usingOrOperator(156));
