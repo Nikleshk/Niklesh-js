@@ -34,8 +34,10 @@ function avengersByRank(rank){
             break;
         case 4 :
             avenger="captain";
-            break;        
+            break; 
+            default:
+                avenger="unknown "       
     }
     return avenger;
 }
-console.log(avengersByRank(1));
+console.log(avengersByRank(3));
