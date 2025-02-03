@@ -114,3 +114,10 @@ function usingOrOperator(value){
     return "value is from inside";
 }
 console.log(usingOrOperator(156));
+
+
+//Boolean return
+function isLess(x,y){
+    return x<y;
+}
+console.log(isLess(10,15));

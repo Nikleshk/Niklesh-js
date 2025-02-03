@@ -41,3 +41,10 @@ function avengersByRank(rank){
     return avenger;
 }
 console.log(avengersByRank(3));
+
+//returning boolean
+function isLess(a,b){
+    return a<b;
+}
+console.log(isLess(10,19));
+
