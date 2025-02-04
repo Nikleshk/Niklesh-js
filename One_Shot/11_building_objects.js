@@ -68,3 +68,14 @@ var alphabets=[{
 }
 ];
 console.log(alphabets[0].a);
+//Accessing nested arrays
+var alphabet=[{
+    a:"sh",
+    b:"sh"
+},
+{
+    c:"sdh",
+    d:["sdhf",7,"FJSK"]
+}
+];
+console.log(alphabet[1].d[0]);
