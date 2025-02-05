@@ -2,7 +2,7 @@ var array=[];
 var i=0;
 while(i<5){
     array.push(i);
-     i++;
+     i++;    
 }
 console.log(array);
 console.log(array.length);
