@@ -61,5 +61,14 @@ var product = multiplyAll([[1,2],[3,4,5],[6,7]]);
 
 console.log(product);
 
+//Do while loops
 
+var array=[];
+var i=10;
+
+do{
+    array.push(i);
+    i++;
+}while(i<5)
+console.log(i,array);
 
