@@ -28,4 +28,4 @@ function profileLookUp(name,prop){
     return "no such contact";
 }
 var data = profileLookUp("Chris","hobbies");
-console.log(data)
+console.log(data);
