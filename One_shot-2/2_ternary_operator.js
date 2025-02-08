@@ -8,7 +8,7 @@ function checkEqual(a,b){
 }
 console.log(checkEqual(1,1));
 
-//Example
+//Example 
 
 function checkEqual2(a,b){
     return a === b ? true : false;
