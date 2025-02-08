@@ -13,4 +13,4 @@ console.log(checkEqual(1,1));
 function checkEqual2(a,b){
     return a === b ? true : false;
 }
-console.log(checkEqual2(1,1));
+console.log(checkEqual2(1,2));
