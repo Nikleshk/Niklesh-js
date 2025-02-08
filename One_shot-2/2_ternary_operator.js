@@ -14,3 +14,10 @@ function checkEqual2(a,b){
     return a === b ? true : false;
 }
 console.log(checkEqual2(1,2));
+
+//check sign 
+
+function checkSign(num){
+    return num > 0 ? "positive" : num < 0 ? "Negative" : "Zero";
+}
+console.log(checkSign(0));
