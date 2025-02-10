@@ -1,7 +1,8 @@
 function checkScope(){
     "use strict";
+    var
     if(true){
-        var i = "block scope"
+        let i = "block scope"
         console.log( " block scope",i);
     }
     console.log("function scope",i)
