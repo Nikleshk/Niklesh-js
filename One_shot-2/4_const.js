@@ -1,8 +1,7 @@
 function primary(str){
-    var sentence = str + " is best";
-    sentence = str + " is awesome";
-    for(var i =0;i<str.length;i+=2){
-        console.log(sentence);
+    const SENTENCE = str + " is best";
+    for(let i = 0;i<str.length;i+=2){
+        console.log(SENTENCE);
     }
 }
-primary("JavaScript")
+primary("FreeCodeCamp")  
