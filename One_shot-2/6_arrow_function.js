@@ -41,3 +41,18 @@ function incrementNums(num,value){
 }
 console.log(incrementNums(5,2));
 
+//Rest operator
+//const args= [1,2,3,4,5];
+function adding(...args){
+    return args.reduce((a,b)=>a+b,0);
+    
+    }
+console.log(adding(1,2,4,7));
+
+//Spread operator
+
+let Array = ["JAN","FEB",3,"APRIL"];
+let array2 =[...Array];
+array2[2]=1;
+console.log(...Array);
+
